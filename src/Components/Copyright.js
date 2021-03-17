@@ -3,9 +3,9 @@ import React from "react";
 const Copyright = props => {
     const {copyright} = props
     return (
-        <div>
+        <h4>
             {copyright}
-        </div>
+        </h4>
     )
 }
 

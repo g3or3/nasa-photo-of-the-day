@@ -3,9 +3,9 @@ import React from "react";
 const DateImg = props => {
     const {date} = props
     return (
-        <div>
+        <h3>
             {date}
-        </div>
+        </h3>
     )
 }
 
