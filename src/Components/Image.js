@@ -1,6 +1,6 @@
 import React from "react";
 
-const NasaImg = props => {
+const Img = props => {
     const {image} = props
     return (
         <img
@@ -11,4 +11,4 @@ const NasaImg = props => {
     )
 }
 
-export default NasaImg;
+export default Img;

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from 'axios'
-import NasaImg from './Components/Image'
+import Img from './Components/Image'
 import Copyright from './Components/Copyright'
 import DateImg from './Components/Date'
 import Summary from './Components/Summary'
@@ -23,7 +23,7 @@ function App() {
   return (
     <>
     <Title title = {data.title}/>
-    <NasaImg image = {data.url}/>
+    <Img image = {data.url}/>
     <DateImg date = {data.date}/>
     <Summary summary = {data.explanation}/>
     <Copyright copyright = {data.copyright}/>
