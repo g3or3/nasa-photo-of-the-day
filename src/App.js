@@ -21,13 +21,13 @@ function App() {
   }, [])
   
   return (
-    <>
-    <Title title = {data.title}/>
-    <Img image = {data.url}/>
-    <DateImg date = {data.date}/>
-    <Summary summary = {data.explanation}/>
-    <Copyright copyright = {data.copyright}/>
-    </>
+    <div className = "App">
+      <Title title = {data.title}/>
+      <Img image = {data.hdurl}/>
+      <DateImg date = {data.date}/>
+      <Summary summary = {data.explanation}/>
+      <Copyright copyright = {data.copyright}/>
+    </div>
   );
 }
 
