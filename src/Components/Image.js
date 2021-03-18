@@ -5,7 +5,6 @@ const Img = props => {
     return (
         <img
             alt = 'APOD'
-            className = 'idkyet'
             src = {image}
         /> 
     )

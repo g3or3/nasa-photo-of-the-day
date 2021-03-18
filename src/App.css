@@ -1,7 +1,5 @@
 .App {
   text-align: center;
-  color: white;
-  font-family: 'Syne Mono', monospace;
 }
 
 html {
@@ -15,15 +13,11 @@ img {
   border-radius: 20px;
   border: 15px inset #A0A0A0;
   animation: fadeIn ease 10s;
-  }
+}
+
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
-}
-
-.text {
-  width: 70%;
-  margin: 0 auto;
 }
 
 .App-logo {
